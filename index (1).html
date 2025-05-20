@@ -1,0 +1,87 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Multiservicios D.S</title>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 0; background: #f4f4f4; }
+        header { background-color: #003366; color: white; text-align: center; padding: 20px; }
+        h1 { margin: 0; }
+        nav, footer { text-align: center; background-color: #002244; color: white; padding: 10px; }
+        section { padding: 20px; max-width: 1000px; margin: auto; background: white; margin-top: 10px; border-radius: 10px; }
+        ul { list-style: none; padding: 0; }
+        li::before { content: "✔ "; color: green; }
+        .galeria img { width: 30%; margin: 1%; border-radius: 10px; }
+        .opiniones blockquote { font-style: italic; margin: 10px 0; }
+        .contacto-form { display: flex; flex-direction: column; max-width: 400px; margin: auto; }
+        .contacto-form input, .contacto-form textarea { margin: 5px 0; padding: 10px; border-radius: 5px; border: 1px solid #ccc; }
+        .contacto-form button { background-color: #25D366; color: white; border: none; padding: 10px; border-radius: 5px; font-size: 16px; }
+        .redes a { margin: 0 10px; text-decoration: none; color: #003366; font-size: 20px; }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Multiservicios D.S</h1>
+    <p>Electricidad, minisplit y soluciones profesionales en Monterrey</p>
+</header>
+
+<section>
+    <h2>Servicios que ofrecemos</h2>
+    <ul>
+        <li>Instalación y mantenimiento de minisplit</li>
+        <li>Reparaciones eléctricas generales</li>
+        <li>Instalación de centros de carga</li>
+        <li>Cambio de pastillas y breakers</li>
+        <li>Colocación de lámparas, contactos y apagadores</li>
+        <li>Multiservicios para hogar y negocio</li>
+    </ul>
+</section>
+
+<section class="galeria">
+    <h2>Galería de trabajos</h2>
+    <img src="https://via.placeholder.com/300x200?text=Minisplit+1" alt="Minisplit">
+    <img src="https://via.placeholder.com/300x200?text=Electricidad+1" alt="Electricidad">
+    <img src="https://via.placeholder.com/300x200?text=Instalación" alt="Instalación">
+    <img src="https://via.placeholder.com/300x200?text=Trabajo+4" alt="Trabajo">
+    <img src="https://via.placeholder.com/300x200?text=Trabajo+5" alt="Trabajo">
+    <img src="https://via.placeholder.com/300x200?text=Trabajo+6" alt="Trabajo">
+</section>
+
+<section class="opiniones">
+    <h2>Opiniones de clientes</h2>
+    <blockquote>"Excelente servicio, muy profesional. – Carlos M."</blockquote>
+    <blockquote>"Rápido y eficiente. Lo recomiendo. – Ana G."</blockquote>
+    <blockquote>"Quedó todo perfecto. ¡Gracias! – Luis T."</blockquote>
+</section>
+
+<section>
+    <h2>Zona de servicio</h2>
+    <p>Trabajamos en toda el área metropolitana de Monterrey: Guadalupe, Apodaca, Escobedo, San Nicolás, Santa Catarina y más.</p>
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3733.854866984045!2d-100.31611218493496!3d25.68661438367567!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x86629592fbb0f22d%3A0xbbbdbb755f9b648b!2sMonterrey%2C%20N.L.%2C%20Mexico!5e0!3m2!1sen!2sus!4v1620597748259!5m2!1sen!2sus" width="100%" height="250" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+</section>
+
+<section>
+    <h2>Contáctanos</h2>
+    <form class="contacto-form" onsubmit="window.open('https://wa.me/528130997503?text=Hola, quiero información sobre sus servicios.', '_blank'); return false;">
+        <input type="text" placeholder="Tu nombre" required>
+        <textarea rows="4" placeholder="Escribe tu mensaje..." required></textarea>
+        <button type="submit">Enviar por WhatsApp</button>
+    </form>
+</section>
+
+<section class="redes">
+    <h2>Síguenos en redes</h2>
+    <a href="#">Facebook</a>
+    <a href="#">Instagram</a>
+    <a href="#">TikTok</a>
+</section>
+
+<footer>
+    <p>© 2025 Multiservicios D.S - Página creada con ayuda de ChatGPT</p>
+</footer>
+
+</body>
+</html>
